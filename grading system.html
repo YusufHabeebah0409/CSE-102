@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var userScore = Number(prompt("Input Your Score"));
+      if (userScore == "") {
+        alert("Input Your Score");
+      } else if (userScore >= 97 && userScore <= 100) {
+        alert("A+");
+      } else if (userScore >= 93 && userScore <= 96) {
+        alert("A");
+      } else if (userScore >= 90 && userScore <= 92) {
+        alert("A-");
+      } else if (userScore >= 87 && userScore <= 89) {
+        alert("B+");
+      } else if (userScore >= 83 && userScore <= 86) {
+        alert("B");
+      } else if (userScore >= 80 && userScore <= 82) {
+        alert("B-");
+      } else if (userScore >= 77 && userScore <= 79) {
+        alert("C+");
+      } else if (userScore >= 73 && userScore <= 76) {
+        alert("C");
+      } else if (userScore >= 70 && userScore <= 72) {
+        alert("C-");
+      } else if (userScore >= 67 && userScore <= 69) {
+        alert("D+");
+      } else if (userScore >= 63 && userScore <= 66) {
+        alert("D");
+      } else if (userScore >= 60 && userScore <= 62) {
+        alert("D-");
+      } else if (userScore >= 0 && userScore <= 59) {
+        alert("F");
+      } else {
+        alert("Invalid");
+      }
+    </script>
+  </body>
+</html>

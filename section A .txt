@@ -1,0 +1,7 @@
+What is an array : array are Data structure 
+Types of array
+1. Array.reverse: it is use to reverse all the item in an array
+2. Array.push: it is use to push an item to the array
+3. Array.pop: it is use to remove the last item on the array
+4. Array.shift: it is use to remove the first item on the array
+5. Array. length: it shows the number of things/item in an array
